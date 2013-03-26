@@ -10,9 +10,10 @@ This portal can be customized and licensed to these businesses who in turn can u
 their customers. We have also followed a customizable architecture. Thus, potentially it can be used to provide a wide 
 variety of services by many businesses while the heavy lifting will be taken care of by us.
 
-About Us:
+### About Us:
 
 Team members include:
+
 1. Vikas Srivastava
 2. Kumar Aniket
 3. Richa Srivastava
