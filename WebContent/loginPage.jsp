@@ -8,7 +8,7 @@
 <title>UAlbany Portal</title>
 </head>
 <body>
-        <H1>Login to your Account</H1>
+        <H1>Log in to your Account</H1>
         <%
 
         String myname = (String)session.getAttribute("username");

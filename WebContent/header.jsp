@@ -13,10 +13,11 @@
       <a href="index.jsp"><h1 style="text-align:center;" color="White">UAlbany Portal</h1></a></td>
     <td width="9%">
      <a href="loginPage.jsp"><font color="White">My Account</font> </a></td>
-     
-     <td width="9%">
-          <a href="services.jsp"><font color="White">Services</font> </a></td>
-    
+     <% String name = (String)session.getAttribute("username");
+     	if (name != null){ %>
+     		<td width="9%">
+          		<a href="services.jsp"><font color="White">Services</font> </a></td>
+      <%}%>
     <td width="9%">
        <a href="about.jsp"><font color="White">About Us</font> </a></td>
   </tr>

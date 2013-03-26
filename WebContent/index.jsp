@@ -18,8 +18,7 @@
             }
 	%>
 
-	<h2 align="center">Welcome to the UAlbany Portal.<br>
-	Click on <a href="services.jsp">Services</a> to see what services we have to offer.</h2>
-	<h4 align="center">Or click on <a href="loginPage.jsp">My Account</a> to login to your account.</h4>
+	<h2 align="center">Welcome to the UAlbany Portal.<br></h2>
+	<h4 align="center"><a href="loginPage.jsp">Log in</a> to your account to see a list of available services.</h4>
 </body>
 </html>
