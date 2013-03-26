@@ -1,4 +1,4 @@
-TeamProjectUAlbanyPortal
+UAlbanyPortal by Team 7
 ========================
 
 We are Team #7 from the Software Engineering class of Spring 2013 at SUNY Albany, working on creating the Ualbany Portal.
