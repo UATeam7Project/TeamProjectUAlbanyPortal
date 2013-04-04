@@ -13,7 +13,7 @@
             String password = request.getParameter("password");
             if (username == null || password == null) {
  
-                out.print("Invalid paramters ");
+                out.print("Invalid paramters");
             }
  
             if (username.toLowerCase().trim().equals("client") && password.equals("clientPW")) {
