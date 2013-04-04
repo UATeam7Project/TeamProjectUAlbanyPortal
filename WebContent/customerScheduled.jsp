@@ -7,7 +7,12 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Pending Orders</title>
 </head>
-<body>
-	<h3 style="text-align:center;">You have 1 order(s) pending as of <%=new java.util.Date() %></h3>
+<body background="soft-white-backgrounds-wallpapers.jpg">
+<%--	<h3 style="text-align:center;">You have 1 order(s) pending as of <%=new java.util.Date() %></h3>   --%>
+	
+<p align="center"><font color="grey" size="3">You have 1 order(s) pending as of <%=new java.util.Date() %></font>
+
 </body>
+	
+
 </html>

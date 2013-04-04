@@ -7,7 +7,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>UAlbany Portal</title>
 </head>
-<body>
+<body background="soft-white-backgrounds-wallpapers.jpg">
         <H1>Log in to your Account</H1>
         <%
 
@@ -27,6 +27,10 @@
                 </table>
                 <input type="submit" value="login" />
             </form>
+            
+            <br><br>
+            No Account?&nbsp<a href="SignUp_Ualbany.jsp">Register Here</a>
+            
             <% 
             }
        

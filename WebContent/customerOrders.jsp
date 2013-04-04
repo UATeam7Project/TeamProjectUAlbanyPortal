@@ -7,7 +7,9 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>My Orders</title>
 </head>
-<body>
-	<h3 style="text-align:center;">You have placed 3 orders so far.</h3>
+<body background="soft-white-backgrounds-wallpapers.jpg">
+	<%--<h3 style="text-align:center;">You have placed 3 orders so far.</h3>   --%>
+	<p align="center"><font color="grey" size="4">You have placed 3 orders so far.</font></body>
+	
 </body>
 </html>

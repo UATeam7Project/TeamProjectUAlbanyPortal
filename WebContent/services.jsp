@@ -6,7 +6,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Services Offered</title>
 </head>
-<body>
+<body background="soft-white-backgrounds-wallpapers.jpg">
         
         <%
         String myname =  (String)session.getAttribute("username");
@@ -16,7 +16,7 @@
              out.println("Welcome  "+myname+"  , <a href=\"logout.jsp\" >Logout</a>");
             }
         %>
-<table align="center" width="50%" bgcolor="White">
+<table align="center" width="50%" >
  <tr>
    <td>
      <p align="left"><font color="Blue" size="5">Browse Services Offered</font></td>

@@ -7,7 +7,6 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Contact My Users</title>
 </head>
-<body>
-	<h3 style="text-align:center;">Contact your Users</h3>
-</body>
+<body background= "soft-white-backgrounds-wallpapers.jpg">
+<p align="center"><font color="grey" size="4">Contact your Users.</font></body>
 </html>

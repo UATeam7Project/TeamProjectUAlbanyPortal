@@ -7,8 +7,12 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Rating Left</title>
 </head>
-<body>
+<body background="soft-white-backgrounds-wallpapers.jpg"><%--
 	<h3 style="text-align:center;">As of <%=new java.util.Date() %>, you have left seller rating for 2 service provider(s) and are yet to leave a 
-	rating for 1 service provider(s)</h3> 
+	rating for 1 service provider(s)</h3>   --%>
+	
+<p align="center"><font color="grey" size="3">As of <%=new java.util.Date() %>, you have left seller rating for 2 service provider(s) and are yet to leave a 
+	rating for 1 service provider(s)</font>
+	
 </body>
 </html>

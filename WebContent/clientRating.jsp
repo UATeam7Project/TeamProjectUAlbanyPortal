@@ -7,7 +7,10 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>My Rating</title>
 </head>
-<body>
-	<h3 style="text-align:center;">As of <%=new java.util.Date() %>, your rating is 4.55/5.0</h3>
+<body background="soft-white-backgrounds-wallpapers.jpg">
+	<%--<h3 style="text-align:center;">As of <%=new java.util.Date() %>, your rating is 4.55/5.0</h3>   --%>
+	
+	<p align="center"><font color="grey" size="4">As of <%=new java.util.Date() %>, your rating is 4.55/5.0</font></body>
+	
 </body>
 </html>

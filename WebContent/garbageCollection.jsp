@@ -7,7 +7,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Garbage Collection Service</title>
 </head>
-<body>
+<body background="soft-white-backgrounds-wallpapers.jpg">
 
 	<%
         String myname =  (String)session.getAttribute("username");
@@ -17,7 +17,6 @@
              out.println("Welcome  "+myname+"  , <a href=\"logout.jsp\" >Logout</a>");
             }
 	%>
-
 	<form method="POST" action="confirmation.jsp">
 	
 	<h3>Select the Service Provider from the list below:</h3>
@@ -61,20 +60,20 @@
 		<option value="pm">PM</option>
 	</select>
 	
-	<br><br>Street Address:
-	<input style="text-align:right" type="text" name="address" value="" required>
+	<br><br>
+	<input value="Street Address" align="right" type="text" name="address" value="" required>
 
-	<br><br>City:
-	<input style="text-align:right" type="text" name="city" value="" required>
+	<br><br>
+	<input value=City type="text" name="city" value="" required>
 
-	<br><br>Zip Code:
-	<input style="text-align:right" type="text" name="zipcode" value="" required>
+	<br><br>
+	<input value=ZipCode type="text" name="zipcode" value="" required>
 	
-	<br><br>Email Address:
-	<input style="text-align:right" type="text" name="email" value="" required>
+	<br><br>
+	<input value=EMail type="text" name="email" value="" required>
 	
-	<br><br>Phone Number (Optional):
-	<input style="text-align:right" type="text" name="phone" value="">
+	<br><br>
+	<input value="Phone Number (Optional)" type="text" name="phone" value="">
 
 	<br><br>
 	<input type="submit" value="Submit">

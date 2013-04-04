@@ -7,7 +7,10 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Orders Fulfilled</title>
 </head>
-<body>
-	<h3 style="text-align:center;">As of <%=new java.util.Date() %>, you have completed 4 orders.</h3>
+<body background="soft-white-backgrounds-wallpapers.jpg">
+	<%--<h3 style="text-align:center;">As of <%=new java.util.Date() %>, you have completed 4 orders.</h3>  --%>
+<p align="center"><font color="grey" size="4">As of <%=new java.util.Date() %>, you have completed 4 orders.</font></body>
+
+
 </body>
 </html>
