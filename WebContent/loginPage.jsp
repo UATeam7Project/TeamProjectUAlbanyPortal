@@ -8,7 +8,6 @@
 <title>UAlbany Portal</title>
 </head>
 <body background="soft-white-backgrounds-wallpapers.jpg">
-        <H1>Log in to your Account</H1>
         <%
 
         String myname = (String)session.getAttribute("username");
@@ -16,7 +15,7 @@
         if (myname == null) 
             {
             %>
-            <form method=POST action="checkLogin.jsp">
+            <form method=POST action="Authentication">
                 <table>
                     <tr>
                         <td> Username  : </td><td> <input name="username" size=15 type="text" /> </td> 

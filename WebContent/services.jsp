@@ -7,7 +7,7 @@
 <title>Services Offered</title>
 </head>
 <body background="soft-white-backgrounds-wallpapers.jpg">
-        
+        <p style="text-align:right">
         <%
         String myname =  (String)session.getAttribute("username");
         
@@ -16,6 +16,7 @@
              out.println("Welcome  "+myname+"  , <a href=\"logout.jsp\" >Logout</a>");
             }
         %>
+        </p>
 <table align="center" width="50%" >
  <tr>
    <td>

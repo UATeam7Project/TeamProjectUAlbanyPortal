@@ -9,23 +9,22 @@
 </head>
 <body>
 <%
-            String username = request.getParameter("username");
-            String password = request.getParameter("password");
-            if (username == null || password == null) {
+            String varusername = (String)request.getParameter("username");
+			String varusertype = (String)request.getParameter("usertype");
+			System.out.println(varusername);
+            if (varusername == null) {
  
                 out.print("Invalid paramters");
             }
  
-            if (username.toLowerCase().trim().equals("client") && password.equals("clientPW")) {
+            if (varusertype.toLowerCase().trim().equals("sProvider")) {
             	String newLine = System.getProperty("line.separator");
-                out.println("Welcome, Client." + newLine + "<a href=loginPage.jsp>View My Account</a>");
-                session.setAttribute("username", username);
+                out.println("Welcome, Service Provider." + newLine + "<a href=loginPage.jsp>View My Account</a>");
             }
            
-            else if (username.toLowerCase().trim().equals("customer") && password.equals("customerPW")) {
+            else if (varusername.toLowerCase().trim().equals("sUser")) {
             	String newLine = System.getProperty("line.separator");
-                out.println("Welcome, Customer." + newLine + "<a href=loginPage.jsp>View My Account</a>");
-                session.setAttribute("username", username);
+                out.println("Welcome, Service User" + newLine + "<a href=loginPage.jsp>View My Account</a>");
             }
 
             else

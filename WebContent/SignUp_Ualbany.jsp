@@ -3,11 +3,11 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+<title>Sign Up</title>
 </head>
 <body  background="soft-white-backgrounds-wallpapers.jpg"> 
 <p align="right">&nbsp;</p>
-<form method="POST" action="index.jsp">
+<form method="POST" action=Register>
 
 <table align="center" width="40%">
 <tr><td></td></tr>
@@ -40,39 +40,48 @@
 </tr>
 <tr>
   <td>Email Address </td>
-     <td><input type="text" name="email" size="20"></td>
+     <td><input type="text" name="emailInput" size="20"></td>
 </tr>
 <tr>
   <td >Password</td>
-     <td ><input type="text" name="password" SIZE="20"></td>
+     <td ><input type="password" name="passwordInput" SIZE="20"></td>
 </tr>
 <tr>
-<td >Re-Type Password</td>
-     <td ><input type="text" name="password" SIZE="20"></td>
+<td>First Name</td>
+     <td ><input type="text" name="fNameInput" SIZE="20"></td>
 </tr>
-
+<tr>
+<td>Last Name</td>
+     <td ><input type="text" name="lNameInput" SIZE="20"></td>
+</tr>
 <tr>
 <td >Type of User Account</td>
     <td>
-    <select name="Type of Account">
-  		<option value="Seller Account">Seller Account</option>
-  		<option value="Buyer Account">Buyer Account</option>
+    <select name="Account_Type">
+  		<option value="sProvider">Service Provider</option>
+  		<option value="sUser">Service User</option>
 	</select>
 	</td>
 </tr>
-
+<tr>
+<td>Street Address</td>
+     <td ><input type="text" name="sAddrInput" SIZE="20"></td>
+</tr>
+<tr>
+<td>City</td>
+     <td ><input type="text" name="cityInput" SIZE="20"></td>
+</tr>
+<tr>
+<td>Zip Code</td>
+     <td ><input type="text" name="zipCodeInput" SIZE="20"></td>
+</tr>
 <tr>
   <td></td>
-     <td><input type="submit" value="Create My Account"></td>
+     <td><input type="submit" value="Create Account"></td>
 </tr>
-
 <tr><td></td>
 </tr>
-
-
 </table>
-
-
 </form>
 
 </body>

@@ -8,7 +8,7 @@
 <title>Garbage Collection Service</title>
 </head>
 <body background="soft-white-backgrounds-wallpapers.jpg">
-
+	<p style="text-align:right">
 	<%
         String myname =  (String)session.getAttribute("username");
         
@@ -17,14 +17,15 @@
              out.println("Welcome  "+myname+"  , <a href=\"logout.jsp\" >Logout</a>");
             }
 	%>
+	</p>
 	<form method="POST" action="confirmation.jsp">
 	
 	<h3>Select the Service Provider from the list below:</h3>
 	<select name="Service_Provider">
-  		<option value="Service Provider A">Service Provider A</option>
-  		<option value="Service Provider B">Service Provider B</option>
-  		<option value="Service Provider C">Service Provider C</option>
-  		<option value="Service Provider D">Service Provider D</option>
+  		<option value="Select Service Provider">Select Service Provider</option>
+  		<option value="Albany Garbage Co.">Albany Garbage Co</option>
+  		<option value="Capital District Garbage Disposal">Capital District Garbage Disposal</option>
+  		<option value="Albany Waste Management">Albany Waste Management</option>
 	</select>
 	<br><br>
 	<h3>Select the desired time from the list below:</h3>

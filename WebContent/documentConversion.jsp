@@ -8,7 +8,7 @@
 <title>Document Conversion</title>
 </head>
 <body background="soft-white-backgrounds-wallpapers.jpg">
-
+	<p style="text-align:right">
 	<%
         String myname =  (String)session.getAttribute("username");
         
@@ -17,42 +17,27 @@
              out.println("Welcome  "+myname+"  , <a href=\"logout.jsp\" >Logout</a>");
             }
 	%>
-
-	<form method="POST" action="confirmation.jsp">
-	 <%-- <p align="left"><font color="grey" size="3">Browse your computer for a file:</font>   --%>
-	  
-		<h4>Browse your computer for a file:</h4>  
-			<input type="file" name="file" size="40">
-		<br><br>
-		Or
-<%--	 <p align="left"><font color="grey" size="3">Enter the web address of the file to be converted:</font>   --%>
+	</p>
+	<form method="POST" action="conversion.jsp">
 		
 	<h4>Enter the web address of the file to be converted:</h4>  
 		<input type="text" name="URI" value=""><br><br>
 		
-	<%-- <p align="left"><font color="grey" size="3">Enter the email address where you want to receive the converted file:</font>
-	 --%>	
 	 From file type:
 	 <select name="fileTypeTo">
-		<option value="pdf">pdf</option>
-		<option value="pm">doc</option>
+		<option value="pdf">PDF</option>
+		<option value="pm">DOCX</option>
 	</select>
+	
 	To file type:
 	<select name="fileTypeFrom">
-		<option value="doc">doc</option>
-		<option value="pdf">pdf</option>
+		<option value="doc">DOCX</option>
+		<option value="pdf">PDF</option>
 	</select>
-	 
-    <h4>Enter the email address where you want to receive the converted file:</h4>  
-		<input type="text" name="email" value="">
-		
+	
 		<br><br>
 		<input type="submit" value="Start Conversion">
 	
 	</form>
-	
-	
-	
-	
 </body>
 </html>

@@ -18,9 +18,19 @@
             }
 	%>
 	
-	<h2 style="text-align:center;">This is Team 7</h2>
-	<h3 style="text-align:center;">This page was created at UAlbany, hence the name. <br><br><br><br></h3>
+	<h2 style="text-align:center;">This is a Project by Team 7</h2>
+	<h3 style="text-align:center;"><br><br><br><br></h3>
 	<p align="center"><p><font size="4" color="grey">This portal can be licensed by any service provider to extend various services to its customers.<br>
-	Each of our clients can customize this page to suit their need</font>
+	Each of our clients can customize this page to suit their need.<br>
+	<h2>Team Members include:<br>
+	<br>Shreyas Chickmaglur Sunil
+	<br>Ashish Agarwala
+	<br>Vikas Srivastava
+	<br>Richa Srivastava
+	<br>Darshan Dhuwad
+	<br>Harshavardhan Nandigama
+	<br>Kumar Aniket
+	</h2>
+	</font>
 </body>
 </html>

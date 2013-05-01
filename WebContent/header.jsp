@@ -9,8 +9,8 @@
 <body>
 <table border="0" cellpadding="0" cellspacing="0" width="100%" bgcolor="#D90046">
   <tr>
-  <td width="20%">
-      <p align="center"><font color="White" size="4">UALBANY PORTAL</font></td>
+  <td>
+      <img src="logo.png"></td>
     <td width="9%">
      <a href="index.jsp"><font color="White" size="2">HOME</font> </a></td>
   <%-- <td width="20%">
@@ -37,10 +37,7 @@
     <td width="10%">
          <a href="FAQ.jsp"><font color="White" size="2">FAQ</font> </a></td> 
        
-    
-    <td width="9%">
-      <p align="center"><font color="white" size="2">MORE</font></td> 
-  </tr>
+    </tr>
   
   
 </table>

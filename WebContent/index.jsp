@@ -8,26 +8,26 @@
 <title>UAlbany Portal</title>
 </head>
 <body  background= "soft-white-backgrounds-wallpapers.jpg">
-
+        <p style="text-align:right">
 	<%
         String myname =  (String)session.getAttribute("username");
         
-        if(myname!=null)
+        if(myname!=null && myname != "Invalid")
             {
         	out.println("You are logged in as:  "+myname+"  , <a href=logout.jsp>Logout</a>");
             }
 	%>
+	</p>
 
 	<%--<h2 align="center">Welcome to the UAlbany Portal.<br></h2>
 	 --%>
 	
 	<%
-	String myname1 =  (String)session.getAttribute("username");
     
-    if(myname1==null){%>
+    if(myname==null || myname == "Invalid"){%>
 <%--		<h4 align="right"><a href="loginPage.jsp">Log in</a></h4>
  --%>
-		 <form method=POST action="checkLogin.jsp">
+		 <form method=POST action="Authentication">
                 <table align="right" width="40%">
                     <tr><td></td></tr>
                     <tr><td></td></tr>
@@ -69,7 +69,7 @@
                     </tr>
                     <tr><td></td>
                     <td>
-                      <a href="SignUp_Ualbany.jsp"><font color="#424242" size="3">New user register HERE</font> </a></td>
+                      <a href="SignUp_Ualbany.jsp"><font color="#424242" size="3">Register</font> </a></td>
                     </tr>
                 </table>
                 
@@ -77,7 +77,26 @@
 		
 		  <% 
             }
-        %>
+        	String varusername = (String)session.getAttribute("username");
+			String varusertype = (String)session.getAttribute("usertype");
+			
+			System.out.println("index.jsp: "+varusername+", " + varusertype+"\n");
+ 
+            if (varusertype == "sProvider") {
+                out.println("Welcome, Service Provider.<a href=loginPage.jsp>View My Account</a>");
+            }
+           
+            else if (varusertype == "sUser") {
+                out.println("Welcome, Service User <a href=loginPage.jsp>View My Account</a>");
+            } 
+
+            else if (varusertype == "Invalid") {
+                	out.println("Invalid username or password ");
+                	%>
+                	<a href="logout.jsp">Retry</a>
+                	<%
+            }
+            %>
 	<table align="left" width="50%" >
  <tr>
    <td>
