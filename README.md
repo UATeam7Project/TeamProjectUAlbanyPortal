@@ -14,10 +14,11 @@ variety of services by many businesses while the heavy lifting will be taken car
 
 Team members include:
 
-1. Vikas Srivastava
-2. Kumar Aniket
+
+1. Shreyas Chickmaglur Sunil
+2. Ashish Agarwala
 3. Richa Srivastava
-4. Shreyas Chickmaglur Sunil
-5. Ashish Agarwala
-6. Darshan Dhuwad
-7. Harshavardhan Nandigama
+4. Vikas Srivastava
+5. Darshan Dhuwad
+6. Harshavardhan Nandigama
+7. Kumar Aniket
